@@ -1,0 +1,12 @@
+coverage run manage.py test
+python manage.py test
+coverage run --omit='/*venv/*' manage.py test
+coverage html     (it will create the htmlcov folder in the directory)
+
+Django templates language documentation
+use flake command to check it follows pep8  guidelines for the styling
+flake
+#### isort is basically going to look your import files
+where as flake use to check/test the pep8 styling cmd command are (isort and isort .)
+isort is used to check the issue
+isort . is used to fix the issues or styling
